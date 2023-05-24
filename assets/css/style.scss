@@ -57,6 +57,7 @@ body {
         flex: 1;
         color: $white;
         text-align: center;
+        transition: .2s linear;
     }
 
     i {
@@ -66,7 +67,7 @@ body {
 
     &:hover {
         background: $crimson;
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
 
         i {
             color: $white;
